@@ -284,10 +284,35 @@ text-align: center;
     background-image: url("../img/moskit.jpg");
     background-size: cover;
  }
+
  .roleta.brama
  {
     background-image: url("../img/brama.jpg");
     background-size: cover;
+ }
+
+ .roleta.pergola
+ {
+     background-image: url("../img/pergola.jpg");
+     background-size: cover;
+ }
+
+ .roleta.karnisze
+ {
+     background-image: url("../img/brama.jpg");
+     background-size: cover;
+ }
+
+ .roleta.markizy
+ {
+     background-image: url("../img/brama.jpg");
+     background-size: cover;
+ }
+
+ .roleta.sklep
+ {
+     background-image: url("../img/brama.jpg");
+     background-size: cover;
  }
  /* koniec oferty rolet */
 
