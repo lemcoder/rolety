@@ -1,0 +1,365 @@
+body,html
+{
+  width: 100%;
+}
+h2
+{
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.roleta a
+{
+margin: 0 !important;
+padding: 0 !important;
+opacity: 1 !important;
+outline: none !important;
+}
+
+.content
+{
+  padding-top: 5%;
+  overflow: hidden;
+}
+#rolety
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+align-items: stretch;
+position: relative;
+}
+.button
+{
+  width: 400px;
+  height: 400px;
+}
+.linked
+{
+  width: 400px;
+  height: 400px;
+}
+.roleta
+{
+  margin-bottom: 10%;
+}
+
+      /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+
+}
+.modal.active
+{
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin:auto; /* centered */
+  overflow: auto;
+  top:10%;
+  padding: 3%;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  position: relative;
+  outline: 1px solid rgb(141, 141, 141);
+  outline-offset: -10px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+
+}
+.header
+{
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  margin: 0 10% 0 10%;
+  text-align: center;
+}
+.h_active
+{
+  border-bottom: 2px solid darkcyan;  
+  opacity: 1 !important;
+}
+.drewniane_25
+{
+  cursor: pointer;
+  padding: 1% 0 1% 0;
+  margin: 2% auto 1% auto;
+  width: 50%;
+  opacity: 0.5;
+}
+.drewniane_50
+{
+  cursor: pointer;
+  padding: 1% 0 1% 0;
+  margin: 2% auto 1% auto;
+  width: 50%;
+  opacity: 0.5;
+}
+.drewniane_25:hover,.drewniane_50:hover
+{
+  opacity: 1;
+}
+.aluminiowe_25
+{
+  cursor: pointer;
+  padding: 1% 0 1% 0;
+  margin: 2% auto 1% auto;
+  width: 50%;
+  opacity: 0.5;
+}
+.aluminiowe_50
+{
+  cursor: pointer;
+  padding: 1% 0 1% 0;
+  margin: 2% auto 1% auto;
+  width: 50%;
+  opacity: 0.5;
+}
+.aluminiowe_25:hover,.aluminiowe_50:hover
+{
+  opacity: 1;
+}
+
+.wybor
+{
+  font-size: 2em;
+  font-weight: bold;
+  margin:1%;
+  padding: 1%;
+}
+.wybor:hover
+{
+  cursor: pointer;
+  background-color: darkcyan;
+}
+.pomiar
+{
+  display: none;
+}
+
+
+.ptext
+{
+  padding: 5%;
+  text-align: left;
+
+
+
+  font-size: 1.5em;
+  width: 90%;
+  max-height:100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: row;
+
+
+}
+.ptext p
+{
+  width: 45%;
+  padding: 2%;
+  flex-grow: 1;
+}
+.ptext img
+{
+  margin: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.pelny_opis
+{
+  display: none;
+  padding: 5%;
+  text-align: left;
+
+}
+.pelny_opis .half
+{
+  float: left;
+  padding: 5%;
+  width: 40%;
+  flex-grow: 1;
+  font-size: 1.5em;
+}
+
+
+
+.jak_zmierzyc
+{
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  border: 2px solid darkcyan;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.jak_zmierzyc:hover
+{
+  background-color:darkcyan ; 
+  transition: background-color 0.6s ease;
+}
+.wiecej
+{
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  border: 2px solid darkcyan;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.wiecej:hover
+{
+  background-color:darkcyan ; 
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+
+.przyklady
+{
+  display: none;
+  text-align: center;
+  margin:auto;
+  font-size: 1.5em;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  font-size: 3em;
+  font-weight: bold;
+  display: block;
+  align-self:flex-start;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+    h1
+    {
+      color: whitesmoke;
+      margin: 0;
+      padding: 0;
+      font-size: 4em;
+      font-weight: 400;
+      z-index: 1;
+      position: relative;
+      display: inline;
+      
+    }
+    .hline
+    {
+      background-color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 1em;
+    }
+    .naglowek_rolety
+    {
+      background-color: rgba(0,0,0,0.6);
+      background-size: cover;
+      padding: 2%;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .naglowek_rolety:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('../img/tlo.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 850px) {
+  h1
+  {
+    font-size: 3em;
+  }
+  .hline
+    {
+      display: none;
+    }
+    .roleta
+    {
+      margin-bottom: 100px;
+    }
+    .roleta input 
+    {
+      width: 300px;
+      height: 300px;
+    }
+  
+    /* MODAL BOX */
+  .modal-content .ptext
+  {
+    padding: 5%;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    width: 85%;
+    max-height:100%;
+  }
+
+.header
+{
+  font-size: 1.5em;
+}
+  /* KONIEC MODAL BOX */
+
+
+  .pelny_opis .half
+{
+  padding: 5%;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+  clear: both;
+  margin: auto;
+  width: 85%;
+}
+  }
+  /* Media koniec */
