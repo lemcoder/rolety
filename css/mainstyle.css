@@ -299,17 +299,17 @@ text-align: center;
 
  .roleta.karnisze
  {
-     background-image: url("../img/brama.jpg");
+     background-image: url("../img/stub.jpg");
      background-size: cover;
  }
 
  .roleta.markizy
  {
-     background-image: url("../img/stub.jpg");
+     background-image: url("../img/markiza.jpg");
      background-size: cover;
  }
 
- .roleta.sklep
+ .roleta.zabudowy
  {
      background-image: url("../img/stub.jpg");
      background-size: cover;
