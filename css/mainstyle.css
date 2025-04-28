@@ -40,11 +40,27 @@
  text-decoration: none;
  font-size: 2em;
  margin: 0 20px 0 20px;
+}
+
+.menu a:has(i) {
+    margin: 0;
+}
+
+.menu .left {
+    float: left;
+}
+
+.menu .rok {
+    font-size: 2em;
+    float: left;
+    padding: 16px 0px;
+    padding-right: 20px;
  }
+
  .menu .logo
  {
- float: left;
- background-color: rgba(0, 0, 0, 0) !important;
+    float: left;
+    background-color: rgba(0, 0, 0, 0) !important;
  }
  
  
@@ -299,7 +315,7 @@ text-align: center;
 
  .roleta.karnisze
  {
-     background-image: url("../img/stub.jpg");
+     background-image: url("../img/karnisze.webp");
      background-size: cover;
  }
 
@@ -311,7 +327,7 @@ text-align: center;
 
  .roleta.zabudowy
  {
-     background-image: url("../img/stub.jpg");
+     background-image: url("../img/zabudowy.png");
      background-size: cover;
  }
  /* koniec oferty rolet */

@@ -4,7 +4,7 @@ let createArray = (numOfImgs => {
     for (let i = 1; i < numOfImgs + 1; i++) {
         getMeta(i);
     }
-})(109); // set there the number of images
+})(82); // set there the number of images
 
 //set the properties of images and push them to array
 function getMeta(numOfImg) {
@@ -18,7 +18,7 @@ function getMeta(numOfImg) {
         let height = this.height;
         let url = this.src;
         //add image object to array
-        imageArray[this.number] = {url, width, height};
+        imageArray[this.number] = { url, width, height };
     };
 
 }
